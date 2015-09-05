@@ -5,7 +5,7 @@ import akka.actor.ActorSystem
 import akka.actor.Props
 
 /**
- * 
+ * 最好多个命令行分别开启
  */
 object SimpleClusterApp {
   def main(args: Array[String]): Unit = {
