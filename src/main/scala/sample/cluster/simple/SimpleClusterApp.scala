@@ -4,6 +4,9 @@ import com.typesafe.config.ConfigFactory
 import akka.actor.ActorSystem
 import akka.actor.Props
 
+/**
+ * 
+ */
 object SimpleClusterApp {
   def main(args: Array[String]): Unit = {
     if (args.isEmpty)
